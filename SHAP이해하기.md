@@ -1,7 +1,12 @@
 # SHAP 소개
 
-  기계학습 모델을 하다 보면, 더 복잡하고 강력한 예측 모델들이 등장하고 있다. 이러한 알고리즘들을 실행하다보면 자연스레 "이 학습 과정에서 어떠한 일이 발생했을까?"란 궁금증이 한 번씩 들었을 것이다.
+기계학습 모델을 하다 보면, 더 복잡하고 강력한 예측 모델들이 등장하고 있다. 이러한 알고리즘들을 실행하다보면 자연스레 "이 학습 과정에서 어떠한 일이 발생했을까?"란 궁금증이 한 번씩 들었을 것이다.
 
-  이러한 의문은 학습 과정에서 그 과정을 확인하기 어렵다는 것에서부터 시작한다. 따라서 이러한 "블랙박스"는 현재 머신러닝의 해석 가능성과 설명 가능성에 대한 관심이 높아지는 지금 중요한 쟁점이 되었다. 이것을 해결하기 위해 유망한 도구 중 하나로 SHAP(SHapley Additive exPlanations)가 있다. 
+이러한 의문은 학습 과정에서 그 과정을 확인하기 어렵다는 것에서부터 시작한다. 따라서 이러한 "블랙박스"는 현재 머신러닝의 해석 가능성과 설명 가능성에 대한 관심이 높아지는 지금 중요한 쟁점이 되었다. 이것을 해결하기 위해 유망한 도구 중 하나로 SHAP(SHapley Additive exPlanations)가 있다. 
 
-SHAP는
+특히, 사회과학 분야에서는 설명변수와 종속변수사이의 관계를 규명하여 그 인과관계를 이해하는데에 초점을 두고 있기때문에 이러한 한계를 극복하고자하는 노력은 중요하다.
+
+SHAP (SHapley Additive exPlanations), LIME(Local Interpretable Model-agnostic Explanation)는 이러한 한계를 완화하기 위한 방법으로 개발되었다. 해당 방법들을 통해 설명변수와 종속변수간의 인과관계를 명확히 해석하는 데에는 어려움이 있더라도, 특정 설명변수가 어떠한 방식으로 기여하는지 해석할 수 있다.
+
+[SHAP, LIME 원 논문] Lundberg, S. M. and Lee, S.-I.(2017), “A Unified Approach to Interpreting Model Predictions,” In proceedings of the Advances in Neural Information Processing Systems, 4765-4774.
+
