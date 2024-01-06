@@ -4,4 +4,3 @@
 shap.summary_plot(shap_values, test_x)
 
 코드를 실행 후
-
